@@ -2,6 +2,27 @@
 
 A Next.js app displaying SMS consent collection and compliance documentation for Twilio 10 DLC campaign registration.
 
+## Screenshots
+
+### SMS Consent Collection via AI Voice Agent
+
+![AI Voice Agent Consent Flow](./public/screenshot1.png)
+
+*Screenshot showing the AI Agent collecting explicit SMS consent during a hotel booking call. The conversation includes:*
+- *Guest confirmation of check-in date*
+- *Clear request for SMS consent with STOP and HELP instructions*
+- *Guest providing explicit "Yes, please" consent*
+- *Confirmation of phone number and consent logging*
+
+### Opt-in Confirmation Message
+
+![SMS Opt-in Confirmation](./public/screenshot2.png)
+
+*Initial opt-in confirmation SMS sent to guests after consent is collected, including:*
+- *Clear opt-in confirmation*
+- *HELP and STOP keyword instructions*
+- *Links to Terms & Conditions and Privacy Policy*
+
 ## Running Locally
 
 ```bash
